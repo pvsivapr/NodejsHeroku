@@ -2,12 +2,14 @@
   "name": "nodejsservice",
   "version": "1.0.0",
   "engines": {
-    "node": "7.9.0"
+    "node": "7.9.0",
+    "npm": "4.2.0"
   },
   "description": "this is my fist nodejs service project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
