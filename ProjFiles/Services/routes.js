@@ -1,6 +1,6 @@
 var bodyParser = require('body-parser')
 
-var appRouter = function(app, conn)
+var appRouter = function(app, conn, server)
 {
   // parse application/x-www-form-urlencoded
   // app.use(bodyParser.urlencoded({ extended: false }))
