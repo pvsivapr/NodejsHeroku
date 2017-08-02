@@ -1,6 +1,9 @@
 {
   "name": "nodejsservice",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.11.1"
+  },
   "description": "this is my fist nodejs service project",
   "main": "app.js",
   "scripts": {
